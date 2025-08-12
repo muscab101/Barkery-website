@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "poppins", sans-serif;
+}
+
+.hero {
+    background-image: url(img/hero.png);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: start;
+    gap: 17rem;
+    padding-left: 40px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav a {
+    color: white;
+    
+}
+
+.nav a.active {
+    
+    color: #E9BD8C;
+}
+
+.hero-text h3 {
+    color: #E9BD8C;
+    font-family: "poppins", sans-serif;
+    margin-left: 10px;
+}
+
+.hero-text h1 {
+    color: white;
+    font-size: 4rem;
+    font-family: "Sansita Swashed";
+    font-weight: 400;
+}
+
+.hero-text {
+    margin-left: 40px;
+    margin-top: 60px;
+    
+}
+
+.btn1 {
+    padding: 8px 18px;
+    border: none;
+    background-color: #933C24;
+    color: white;
+    border-radius: 5px;
+}
+
+.btn2 {
+    padding: 8px 18px;
+    border: none;
+    background-color: transparent;
+    color: #E9BD8C;
+    
+}
+
+.hero-button {
+    margin-top: 30px;
+}
+
+.blog h1 {
+    color: black;
+    font-family: "Sansita Swashed";
+    font-size: 40px;
+    margin-top: 40px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.blog-img {
+    display: grid;
+    grid-template-columns: 270px 270px 270px;
+    grid-template-rows: 270px 270px;
+    justify-content: center;
+    margin-top: 70px;
+    column-gap: 3px;
+    row-gap: 15px;
+}
+
+
+.panner {
+    background-image: url(img/blog/panner.png);
+    background-position: left;
+    width: 100%;
+    height: 50vh;
+    margin-top: 80px;
+}
+
+.panner h1 {
+    font-family: "Sansita Swashed";
+    font-weight: 400;
+    color: #933C24;
+    padding-top: 30px;
+}
+
+.panner p {
+    text-align: center;
+    color: #5D5D5D;
+    margin-top: 14px;
+}
+
+.btn-panner button {
+    padding: 8px 18px;
+    border: none;
+    background-color: #933C24;
+    color: white;
+    border-radius: 5px;
+    margin-left: 575px;
+    margin-top: 10px;
+}
